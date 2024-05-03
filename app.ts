@@ -14,18 +14,15 @@ function isDivisibleBy4And8(a: number): boolean {
         return true
     
     else return false
-}
-
-//console.log(isDivisibleBy4And8(6));
+}//console.log(isDivisibleBy4And8(6));
 
  let bigNumber = (Number as any).MAX_SAFE_INTEGER
-//let bigNumber: bigint = 9007199254740992n
 //console.log(bigNumber);
 
 // let anotherBigNumber = BigInt("90071992547409925")
 //onsole.log(anotherBigNumber);
 
-                       // Any & Unkown
+                       // Any 
 let isFavNum:any = 6;
 isFavNum="Kabir"
 isFavNum=true
